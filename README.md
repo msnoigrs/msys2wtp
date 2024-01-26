@@ -12,7 +12,7 @@ $ ./msys2wtp.exe
 Options:
   -c    output to clipboard
   -d string
-        starting directory (default "C:/msys64/home/%USERNAME%")
+        starting directory (default "C:\\msys64\\home\\%USERNAME%")
   -gfw
         adding a entry of Git for Windows
   -i string

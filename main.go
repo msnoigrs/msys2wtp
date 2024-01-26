@@ -28,7 +28,7 @@ func main() {
 		shl = flag.String("s", "bash", "shell (bash/zsh)")
 		ist = flag.String("i", "C:/msys64", "MSYS2 install path")
 		typ = flag.String("t", "msys2,ucrt64,mingw32,mingw64,clang64,clang32,clangarm64", "types of msys2")
-		sdy = flag.String("d", "C:/msys64/home/%USERNAME%", "starting directory")
+		sdy = flag.String("d", "C:\\msys64\\home\\%USERNAME%", "starting directory")
 		gfw = flag.Bool("gfw", false, "adding a entry of Git for Windows")
 	)
 
@@ -144,6 +144,10 @@ func printProfiles(p []byte) {
 		if scanner.Text() == "        ]" {
 			break
 		}
+		if n == 1 {
+			fmt.Println(",")
+			n++
+		}
 		fmt.Println(scanner.Text())
 	}
 }
@@ -165,7 +169,12 @@ func outtocb(p []byte) error {
 		if scanner.Text() == "        ]" {
 			break
 		}
+		if n == 1 {
+			b = append(b, ',', '\n')
+			n++
+		}
 		b = append(b, scanner.Bytes()...)
+		b = append(b, '\n')
 	}
 
 	clipboard.Write(clipboard.FmtText, b)
