@@ -1,0 +1,57 @@
+,
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -msys2 -shell bash",
+                "guid": "{18f27f77-d66a-41c8-9608-705d8375e814}",
+                "hidden": false,
+                "name": "MSYS2: msys2",
+                "icon": "C:\\msys64\\msys2.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64 -shell bash",
+                "guid": "{f4d8aea6-80f9-4328-9b65-424d95e84914}",
+                "hidden": false,
+                "name": "MSYS2: ucrt64",
+                "icon": "C:\\msys64\\ucrt64.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -mingw32 -shell bash",
+                "guid": "{410be2f0-8f2e-4419-ace9-1b97e368cb10}",
+                "hidden": false,
+                "name": "MSYS2: mingw32",
+                "icon": "C:\\msys64\\mingw32.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -mingw64 -shell bash",
+                "guid": "{096d439a-62bc-4655-aa7f-743906c16e5c}",
+                "hidden": false,
+                "name": "MSYS2: mingw64",
+                "icon": "C:\\msys64\\mingw64.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -clang64 -shell bash",
+                "guid": "{b96ad4ac-a206-4c5f-a56a-007842727142}",
+                "hidden": false,
+                "name": "MSYS2: clang64",
+                "icon": "C:\\msys64\\clang64.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -clang32 -shell bash",
+                "guid": "{60f645bd-d9a3-48d0-a033-fd040734b70d}",
+                "hidden": false,
+                "name": "MSYS2: clang32",
+                "icon": "C:\\msys64\\clang32.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            },
+            {
+                "commandline": "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -clangarm64 -shell bash",
+                "guid": "{694fb5a0-02e2-4749-8ddb-d7656258c415}",
+                "hidden": false,
+                "name": "MSYS2: clangarm64",
+                "icon": "C:\\msys64\\clangarm64.ico",
+                "startingDirectory": "C:\\msys64\\home\\%USERNAME%"
+            }

@@ -32,6 +32,10 @@ Options:
 
 `settings.json` にカットアンドペースしやすいように、 `profiles` の `list` 配列要素の部分だけを出力します。`settings.json` にペーストする際は、前後のカンマの有無に注意してください。
 
+## 出力サンプル
+
+output.txt は出力サンプルです。
+
 ## ライセンス
 
 MIT
